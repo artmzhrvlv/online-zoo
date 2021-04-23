@@ -1,0 +1,250 @@
+.Footer {
+  height: 200px;
+  filter: drop-shadow(0px 1px 10px rgba(18, 87, 91, 0.25));
+  background-color: #196469;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* height: 700px; */
+  /* background-image: url(./assets/FooterBackgr.png); */
+
+  margin-top: 185px;
+}
+.FooterLogo {
+  position: absolute;
+  width: 108px;
+  height: 83.61px;
+  left: 220px;
+  top: 59px;
+  background-image: url(assets/Logo-large.png);
+}
+.FooterMenu {
+  position: absolute;
+  width: 301px;
+  height: 24px;
+  left: 405px;
+  top: 89px;
+}
+.FooterDesign {
+  position: absolute;
+  width: 65px;
+  height: 24px;
+  left: 449px;
+  top: 1px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #c5e1e6;
+  transition: 0.5s;
+}
+.FooterDesign:hover,
+.FooterContactUs:hover,
+.FooterZoos:hover,
+.FooterMap:hover,
+.FooterAbout:hover {
+  color: #fce581;
+}
+.FooterDesign:active,
+.FooterContactUs:active,
+.FooterZoos:active,
+.FooterMap:active,
+.FooterAbout:active {
+  color: #fce581;
+  text-decoration: underline;
+}
+.FooterContactUs {
+  transition: 0.5s;
+
+  position: absolute;
+  width: 109px;
+  height: 24px;
+  left: 288px;
+  top: 1px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #c5e1e6;
+}
+
+.FooterZoos {
+  position: absolute;
+  width: 44px;
+  height: 24px;
+  left: 192px;
+  top: 1px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #c5e1e6;
+  transition: 0.5s;
+}
+.FooterMap {
+  position: absolute;
+  width: 33px;
+  height: 24px;
+  left: 107px;
+  top: 0px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #c5e1e6;
+  transition: 0.5s;
+}
+.FooterAbout {
+  position: absolute;
+  width: 55px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #c5e1e6;
+  transition: 0.5s;
+}
+.DesignedBy {
+  position: absolute;
+  width: 421px;
+  height: 48px;
+  right: 5vw;
+  top: 95px;
+}
+.DesignedBy p1 {
+  position: absolute;
+  width: 249px;
+  height: 19px;
+  left: 172px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.DesignedBy p2 {
+  position: absolute;
+  width: 286px;
+  height: 19px;
+  left: 135px;
+  top: 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+@media screen and (max-width: 1620px) {
+  .Footer {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .Footer {
+    margin-top: 400px;
+  }
+  .FooterLogo {
+    left: 5vw;
+  }
+  .FooterMenu {
+    left: 15vw;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Footer {
+    height: 121px;
+    margin-top: 105px;
+  }
+  .FooterLogo {
+    left: 2.5vw;
+    top: 18px;
+  }
+  .FooterMenu {
+    top: 48px;
+    left: 18vw;
+  }
+  .DesignedBy {
+    top: 33px;
+    right: 2.5vw;
+  }
+  .DesignedBy p1,
+  .DesignedBy p2 {
+    font-size: 12px;
+  }
+  .DesignedBy p1 {
+    top: 7px;
+  }
+  .FooterMap {
+    left: 100px;
+  }
+  .FooterZoos {
+    left: 172px;
+  }
+  .FooterContactUs {
+    left: 260px;
+  }
+  .FooterDesign {
+    left: 410px;
+  }
+}
+@media screen and (max-width: 958px) {
+  .FooterMenu {
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Footer {
+    height: 78px;
+    margin-top: 200px;
+  }
+  .FooterLogo {
+    width: 49.08px;
+    height: 38px;
+    left: 20px;
+    top: 22px;
+    background-size: contain;
+  }
+  .DesignedBy {
+    top: 15px;
+  }
+  .DesignedBy p1,
+  .DesignedBy p2 {
+    font-size: 10px;
+    font-weight: 100;
+  }
+  .DesignedBy p2 {
+    top: 24px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .Footer {
+    margin-top: -60px;
+  }
+}
+@media screen and (max-width: 588px) {
+  .Footer {
+    margin-top: 1015px;
+  }
+  .DesignedBy {
+    top: 17px;
+  }
+}

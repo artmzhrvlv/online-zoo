@@ -1,0 +1,502 @@
+.LookAtThisText {
+  position: absolute;
+  width: 393px;
+  height: 28px;
+  left: 220px;
+  top: 3928px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  /* black */
+  color: #0d444d;
+}
+.LookAtThisFrame {
+  position: absolute;
+  width: 1447px;
+  height: 131px;
+  left: 206px;
+  top: 4006px;
+}
+.LookPanda {
+  position: absolute;
+  width: 105px;
+  height: 131px;
+  left: 16px;
+  top: 18px;
+}
+.LookPandaZoo {
+  position: relative;
+  overflow: hidden;
+  width: 76px;
+  height: 73.37px;
+  left: 0px;
+  top: 0px;
+  border-radius: 120% 120% 170% 100% / 120% 120% 150% 150%;
+  transition: transform 2s;
+}
+
+.LookPandaZoo::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: fixed;
+
+  background: url(assets/PandaZoo.png);
+  background-size: fixed;
+  transition: transform 2s;
+}
+
+.LookPandaZoo:hover {
+  transform: rotate(360deg);
+}
+.LookPandaZoo:hover::before {
+  transform: rotate(-360deg);
+}
+
+.LookGorilla {
+  position: absolute;
+  width: 105px;
+  height: 131px;
+  left: 222px;
+  top: 18px;
+}
+.LookGorillaZoo {
+  position: relative;
+  overflow: hidden;
+  width: 76px;
+  height: 73.37px;
+  left: 0px;
+  top: 0px;
+  border-radius: 120% 120% 170% 100% / 120% 120% 150% 150%;
+  transition: transform 2s;
+}
+
+.LookGorillaZoo::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: fixed;
+
+  background: url(assets/GorillaZoo.png);
+  background-size: fixed;
+  transition: transform 2s;
+}
+
+.LookGorillaZoo:hover {
+  transform: rotate(360deg);
+}
+.LookGorillaZoo:hover::before {
+  transform: rotate(-360deg);
+}
+
+.LookEagle {
+  position: absolute;
+  width: 105px;
+  height: 131px;
+  left: 425px;
+  top: 18px;
+}
+.LookEagleZoo {
+  position: relative;
+  overflow: hidden;
+  width: 76px;
+  height: 73.37px;
+  left: 0px;
+  top: 0px;
+  border-radius: 120% 120% 170% 100% / 120% 120% 150% 150%;
+  transition: transform 2s;
+}
+
+.LookEagleZoo::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: fixed;
+
+  background: url(assets/EagleZoo.png);
+  background-size: fixed;
+  transition: transform 2s;
+}
+
+.LookEagleZoo:hover {
+  transform: rotate(360deg);
+}
+.LookEagleZoo:hover::before {
+  transform: rotate(-360deg);
+}
+
+.LookAligator {
+  position: absolute;
+  width: 105px;
+  height: 131px;
+  left: 630px;
+  top: 18px;
+}
+.LookAligatorZoo {
+  position: relative;
+  overflow: hidden;
+  width: 76px;
+  height: 73.37px;
+  left: 0px;
+  top: 0px;
+  border-radius: 120% 120% 170% 100% / 120% 120% 150% 150%;
+  transition: transform 2s;
+}
+
+.LookAligatorZoo::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: fixed;
+
+  background: url(assets/AligatorZoo.png);
+  background-size: fixed;
+  transition: transform 2s;
+}
+
+.LookAligatorZoo:hover {
+  transform: rotate(360deg);
+}
+.LookAligatorZoo:hover::before {
+  transform: rotate(-360deg);
+}
+
+.LookElephant {
+  position: absolute;
+  width: 105px;
+  height: 131px;
+  left: 835px;
+  top: 18px;
+}
+.LookElephantZoo {
+  position: relative;
+  overflow: hidden;
+  width: 76px;
+  height: 73.37px;
+  left: 0px;
+  top: 0px;
+  border-radius: 120% 120% 170% 100% / 120% 120% 150% 150%;
+  transition: transform 2s;
+}
+
+.LookElephantZoo::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: fixed;
+
+  background: url(assets/ElephantZoo.png);
+  background-size: fixed;
+  transition: transform 2s;
+}
+
+.LookElephantZoo:hover {
+  transform: rotate(360deg);
+}
+.LookElephantZoo:hover::before {
+  transform: rotate(-360deg);
+}
+.LookLemur {
+  position: absolute;
+  width: 105px;
+  height: 131px;
+  left: 1040px; /*------------tut menyal-------------*/
+  top: 18px;
+}
+.LookLemurZoo {
+  position: relative;
+  overflow: hidden;
+  width: 76px;
+  height: 73.37px;
+  left: 0px;
+  top: 0px;
+  border-radius: 120% 120% 170% 100% / 120% 120% 150% 150%;
+  transition: transform 2s;
+}
+
+.LookLemurZoo::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: fixed;
+
+  background: url(assets/LemurZoo.png);
+  background-size: fixed;
+  transition: transform 2s;
+}
+
+.LookLemurZoo:hover {
+  transform: rotate(360deg);
+}
+.LookLemurZoo:hover::before {
+  transform: rotate(-360deg);
+}
+.LookPanda2 {
+  position: absolute;
+  width: 105px;
+  height: 131px;
+  left: 1245px;
+  top: 18px;
+}
+.LookPanda2Zoo {
+  position: relative;
+  overflow: hidden;
+  width: 76px;
+  height: 73.37px;
+  left: 0px;
+  top: 0px;
+  border-radius: 120% 120% 170% 100% / 120% 120% 150% 150%;
+  transition: transform 2s;
+}
+
+.LookPanda2Zoo::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: fixed;
+
+  background: url(assets/PandaZoo.png);
+  background-size: fixed;
+  transition: transform 2s;
+}
+
+.LookPanda2Zoo:hover {
+  transform: rotate(360deg);
+}
+.LookPanda2Zoo:hover::before {
+  transform: rotate(-360deg);
+}
+.LookText {
+  position: absolute;
+  width: fit-content;
+  height: 18px;
+
+  top: 80px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2d2d2d;
+}
+.LookPanda .LookText,
+.LookLemur .LookText,
+.LookEagle .LookText,
+.LookPanda2 .LookText {
+  left: 10px;
+}
+.LookText:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.LookArrows {
+  position: absolute;
+  width: 52px;
+  height: 104px;
+  left: 1394px;
+  top: 14px;
+}
+.LookLeft {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  left: 0px;
+  top: 52px;
+  transition: 0.7s;
+}
+.LookLeft:hover {
+  cursor: pointer;
+  width: 52px;
+  height: 52px;
+  left: 10px;
+  top: 52px;
+}
+.LookRight {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  transition: 0.7s;
+}
+.LookRight:hover {
+  cursor: pointer;
+
+  width: 52px;
+  height: 52px;
+  left: 10px;
+  top: 0px;
+}
+@media screen and (max-width: 1712px) {
+  .LookAtThisFrame {
+    left: 40px;
+    width: fit-content;
+  }
+  .LookAtThisText {
+    left: 2vw;
+  }
+
+  .LookArrows {
+    left: 92vw;
+  }
+}
+@media screen and (max-width: 1428px) {
+  .LookPanda2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1208px) {
+  .LookPanda {
+    left: 0px;
+  }
+  .LookGorilla {
+    left: 185px;
+  }
+  .LookEagle {
+    left: 370px;
+  }
+  .LookAligator {
+    left: 555px;
+  }
+  .LookElephant {
+    left: 740px;
+  }
+  .LookLemur {
+    left: 925px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .LookAtThisFrame {
+    top: 3421px;
+  }
+  .LookAtThisText {
+    width: fit-content;
+    top: 3360px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  .LookArrows {
+    left: 90vw;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .LookPanda {
+    left: 0px;
+  }
+  .LookGorilla {
+    left: 147px;
+  }
+  .LookEagle {
+    left: 294px;
+  }
+  .LookAligator {
+    left: 441px;
+  }
+  .LookElephant {
+    left: 600px;
+  }
+  .LookLemur {
+    left: 750px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .LookLemur {
+    display: none;
+  }
+  .LookArrows {
+    left: 85vw;
+  }
+}
+@media screen and (max-width: 796px) {
+  .LookElephant {
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .LookAtThisFrame {
+    top: 2500px;
+    left: 14px;
+  }
+  .LookAtThisText {
+    top: 2450px;
+    font-size: 1.1rem;
+    left: 20px;
+  }
+  .LookArrows {
+    left: auto;
+    right: -96vw;
+  }
+}
+@media screen and (max-width: 588px) {
+  .LookAtThisFrame {
+    top: 4074px;
+  }
+  .LookPanda {
+    top: 62px;
+    left: 5px;
+  }
+  .LookGorilla {
+    top: 62px;
+    left: 110px;
+  }
+  .LookEagle {
+    width: fit-content;
+    top: 62px;
+    left: 218px;
+  }
+  .LookAligator {
+    top: 215px;
+    left: 5px;
+  }
+  .LookElephant {
+    top: 215px;
+    left: 113px;
+    display: block;
+  }
+  .LookLemur {
+    width: fit-content;
+    top: 215px;
+    left: 224px;
+    display: block;
+  }
+  .LookArrows {
+    top: 318px;
+    right: auto;
+    left: 95px;
+    transform: rotate(90deg);
+  }
+  .LookLeft {
+    display: none;
+  }
+  .LookAtThisText {
+    left: 8px;
+    top: 4070px;
+  }
+}

@@ -1,0 +1,446 @@
+.how-container {
+  height: 1235px;
+  filter: drop-shadow(0px 1px 10px #f6f9fa);
+  background-image: url(assets/illustr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /*background-attachment: fixed;*/
+}
+
+.HowworksText {
+  position: absolute;
+  width: 174px;
+  height: 28px;
+  left: 11.5vw;
+  top: -45px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24.5px;
+  text-transform: uppercase;
+  color: #0d444d;
+}
+.Comp4 {
+  position: absolute;
+  width: 480px;
+  height: 367px;
+  left: 11.5vw;
+  top: 240px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #2a8086;
+}
+
+.Comp5 {
+  position: absolute;
+  width: 480px;
+  height: 367px;
+  left: 37.5vw;
+  top: 240px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #2a8086;
+}
+.Comp6 {
+  position: absolute;
+  width: 480px;
+  height: 367px;
+  right: 11.5vw;
+  top: 240px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #2a8086;
+}
+.Circle1 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 19vw;
+  top: 60px;
+  filter: none;
+  background-size: auto;
+  background-color: transparent;
+}
+.Circle2 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 45.2vw;
+  top: 60px;
+  filter: none;
+  background-size: auto;
+  background-color: transparent;
+}
+.Circle3 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  right: 19vw;
+  top: 60px;
+  filter: none;
+  background-size: auto;
+  background-color: transparent;
+}
+.Comp4Photo {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 19vw;
+  top: 60px;
+  filter: none;
+  background-size: 1%;
+  background-repeat: no-repeat;
+  background-image: url(./assets/HowComp11.png);
+}
+.Comp4Photo:hover {
+  width: 406px;
+  height: 190px;
+  left: 13vw;
+  top: -120px;
+  box-shadow: transparent;
+
+  background: #f6f9fa;
+  border-radius: 10px;
+  background-image: url(assets/Tooltip1.png);
+}
+.Comp5Photo {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 48.2vw;
+  top: 60px;
+  background-size: 1%;
+  background-repeat: no-repeat;
+
+  background-image: url(assets/HowComp2.png);
+}
+.Comp5Photo:hover {
+  width: 406px;
+  height: 190px;
+  left: 749px;
+  top: -120px;
+  box-shadow: transparent;
+
+  background: #f6f9fa;
+  border-radius: 10px;
+  background-image: url(assets/Tooltip1.png);
+}
+.Comp6Photo {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  right: 15vw;
+  top: 60px;
+  background-size: 1%;
+  background-repeat: no-repeat;
+  background-image: url(assets/HowComp3.png);
+}
+.Comp6Photo:hover {
+  width: 406px;
+  height: 190px;
+  left: 1254px;
+  top: -120px;
+  box-shadow: transparent;
+
+  background: #f6f9fa;
+  border-radius: 10px;
+  background-image: url(assets/Tooltip1.png);
+}
+
+/*--------------ILLUSTRATION---------*/
+
+.tree1 {
+  position: absolute;
+  width: 130.13px;
+  height: 230px;
+  left: 11.5vw;
+  top: 405px;
+  background-image: url(assets/tree4Tree1.png);
+}
+
+.tree2 {
+  /* tree4 */
+  position: absolute;
+  width: 89.39px;
+  height: 158px;
+  left: 41.5vw;
+  top: 465px;
+  background-image: url(assets/tree4Tree2.png);
+}
+
+.tree3 {
+  position: absolute;
+  width: 130.13px;
+  height: 230px;
+  right: 9vw;
+  top: 520px;
+  background-image: url(assets/tree4Tree3.png);
+}
+
+.bamboo {
+  background-image: url(assets/Bamboo.png);
+  position: absolute;
+  width: 147.18px;
+  height: 280px;
+  right: 38vw;
+  top: 445px;
+}
+
+.PandaIlustr {
+  position: absolute;
+  width: 163px;
+  height: 155px;
+  right: 42vw;
+  top: 560px;
+  background-image: url(assets/PandaIllustr.png);
+}
+@media screen and (max-width: 1620px) {
+  .Comp4Photo,
+  .Comp5Photo,
+  .Comp6Photo {
+    display: none;
+  }
+  .HowworksText {
+    top: -5px;
+    left: 2.5vw;
+  }
+  .Circle1 {
+    top: 40px;
+    left: 10vw;
+  }
+  .Circle2 {
+    top: 40px;
+    left: 42.5vw;
+  }
+  .Circle3 {
+    top: 40px;
+    right: 10vw;
+  }
+  .Comp4 {
+    top: 215px;
+    left: -2.2vw;
+  }
+  .Comp5 {
+    top: 215px;
+    left: 30vw;
+  }
+  .Comp6 {
+    width: 400px;
+    top: 215px;
+    right: 1vw;
+  }
+  .how-container {
+    height: 1020px;
+    background-position: left;
+  }
+  .tree1 {
+    top: 320px;
+    left: 21.5vw;
+  }
+  .tree2 {
+    top: 380px;
+    left: 51vw;
+  }
+  .tree3 {
+    display: none;
+  }
+  .PandaIlustr {
+    top: 510px;
+    right: 10vw;
+  }
+  .bamboo {
+    top: 390px;
+    right: 4vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .HowworksText {
+    left: 3vw;
+    font-size: 18px;
+  }
+  .Circle1 {
+    height: 140px;
+    width: 140px;
+  }
+  .Circle2 {
+    height: 140px;
+    width: 140px;
+  }
+  .Circle3 {
+    height: 140px;
+    width: 140px;
+  }
+  .Comp4 {
+    width: 210px;
+    top: 180px;
+    left: 6vw;
+  }
+  .Comp5 {
+    top: 180px;
+    left: 40vw;
+    width: 150px;
+  }
+  .Comp6 {
+    top: 180px;
+    right: 10vw;
+    width: 170px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .how-container {
+    height: 560px;
+    background-image: url(./assets/how640.png);
+  }
+  .HowworksText {
+    top: -105px;
+    left: 3vw;
+    font-size: 18px;
+  }
+  .Circle1 {
+    top: -75px;
+    height: 140px;
+    width: 140px;
+    left: 6vw;
+  }
+  .Circle2 {
+    top: -75px;
+    height: 140px;
+    width: 140px;
+    left: 39vw;
+  }
+  .Circle3 {
+    top: -75px;
+    height: 140px;
+    width: 140px;
+
+    right: 6.5vw;
+  }
+  .Comp4 {
+    top: 67px;
+    width: 210px;
+    left: 1.5vw;
+  }
+  .Comp5 {
+    top: 67px;
+    width: 150px;
+    left: 38.5vw;
+  }
+  .Comp6 {
+    width: 170px;
+    top: 67px;
+    right: 4.5vw;
+  }
+
+  .tree1 {
+    background-size: 56%;
+    background-repeat: no-repeat;
+    top: 170px;
+    left: 5vw;
+  }
+  .tree2 {
+    background-size: 56%;
+    background-repeat: no-repeat;
+    top: 205px;
+    left: 35vw;
+  }
+
+  .PandaIlustr {
+    background-size: 56%;
+    background-repeat: no-repeat;
+    top: 280px;
+    right: 13vw;
+  }
+  .bamboo {
+    background-size: 56%;
+    background-repeat: no-repeat;
+    top: 215px;
+    right: 8vw;
+  }
+}
+@media screen and (max-width: 588px) {
+  .how-container {
+    height: 1540px;
+    background-position: center;
+  }
+  .HowworksText {
+    top: -18px;
+    letter-spacing: 0.3px;
+  }
+  .Circle1 {
+    top: 10px;
+    height: 140px;
+    width: 140px;
+    left: 27.5vw;
+  }
+  .Circle2 {
+    top: 220px;
+    height: 140px;
+    width: 140px;
+    left: 27.5vw;
+  }
+  .Circle3 {
+    top: 440px;
+    height: 140px;
+    width: 140px;
+    left: 27.5vw;
+  }
+  .Comp4 {
+    top: 145px;
+    width: 210px;
+    left: 17vw;
+  }
+  .Comp5 {
+    top: 360px;
+    width: 150px;
+    left: 26vw;
+  }
+  .Comp6 {
+    width: 170px;
+    top: 577px;
+    left: 23vw;
+  }
+
+  .tree1 {
+    display: none;
+  }
+  .tree2 {
+    background-size: 56%;
+    background-repeat: no-repeat;
+    top: 695px;
+    left: -10px;
+  }
+
+  .PandaIlustr {
+    background-size: 56%;
+    background-repeat: no-repeat;
+    top: 769px;
+    right: 0vw;
+  }
+  .bamboo {
+    width: 130px;
+
+    background-repeat: no-repeat;
+    top: 705px;
+    right: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .how-container {
+    background-position: center;
+    background-image: url(./assets/how320.png);
+  }
+}

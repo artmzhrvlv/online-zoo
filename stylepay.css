@@ -1,0 +1,402 @@
+.pay-container {
+  height: 1936px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(assets/PayAndFeedBackgr.png);
+}
+.PayCenter {
+  position: absolute;
+  width: 1480px;
+  height: 422px;
+  left: 270px;
+  top: 102px;
+}
+.text {
+  position: absolute;
+  width: 164px;
+  height: 28px;
+  left: 220px;
+  top: 2900px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #c5e1e6;
+}
+.PayDonate {
+  position: absolute;
+  width: 356px;
+  height: 52px;
+  right: 220px;
+  top: 2890px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #0d444d;
+  background: #c5e1e6;
+  border-radius: 100px;
+  filter: drop-shadow(0px 2px 20px #0f5f6b);
+}
+.PayDonate:hover {
+  cursor: pointer;
+  background-color: white;
+}
+.PayDonate:active {
+  color: black;
+  text-decoration: underline;
+}
+.Ellipse1,
+.Ellipse2,
+.Ellipse3 {
+  width: 150px;
+  height: 150px;
+  top: 3035px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.Ellipse1 {
+  position: absolute;
+  left: 20vw;
+
+  background-image: url(./assets/PayFrame1.png);
+}
+.Ellipse2 {
+  position: absolute;
+  left: 46vw;
+  background-image: url(./assets/PayFrame2.png);
+}
+.Ellipse3 {
+  position: absolute;
+  right: 20vw;
+  background-image: url(./assets/PayFrame3.png);
+}
+.Ellipse1 p,
+.Ellipse2 p,
+.Ellipse3 p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  color: #c5e1e6;
+  width: max-content;
+  margin-top: 160px;
+}
+.Ellipse1 p {
+  margin-left: -35px;
+}
+.Ellipse2 p {
+  margin-left: -78px;
+}
+.Ellipse3 p {
+  margin-left: -18px;
+}
+.Arrows {
+  position: absolute;
+  width: 797px;
+  height: 52px;
+  left: 30vw;
+  top: 3083px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(assets/Arrows.png);
+}
+.ArrowsLeft,
+.ArrowsRight {
+  display: none;
+}
+@media screen and (max-width: 1863px) {
+  .Arrows {
+    left: 315px;
+    background-size: 70%;
+    background-image: url(assets/PayArrows1200.png);
+  }
+  .Ellipse1 {
+    left: 135px;
+  }
+  .Ellipse2 {
+    left: 520px;
+  }
+  .Ellipse3 {
+    left: 900px;
+  }
+}
+@media screen and (max-width: 1620px) {
+  .pay-container {
+    height: 2300px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .pay-container {
+    height: 1936px;
+  }
+  .Ellipse1,
+  .Ellipse2,
+  .Ellipse3 {
+    width: 150px;
+    height: 150px;
+    top: 2835px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .Arrows {
+    top: 2890px;
+  }
+  .text {
+    left: 5vw;
+    top: 2660px;
+  }
+  .PayDonate {
+    top: 2660px;
+    left: auto;
+    right: 2vw;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .pay-container {
+    height: 1710px;
+    background-image: url(./assets/PayBackgr1200.png);
+  }
+  .Ellipse1,
+  .Ellipse2,
+  .Ellipse3 {
+    width: 150px;
+    height: 150px;
+    top: 2565px;
+  }
+  .Arrows {
+    top: 2628px;
+  }
+  .text {
+    left: 3vw;
+    top: 2470px;
+  }
+  .PayDonate {
+    top: 2460px;
+    width: 270px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 38px;
+    left: auto;
+    right: 3.7vw;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .pay-container {
+    background-position: right;
+  }
+  .Arrows {
+    left: 265px;
+    width: 50px;
+    background-size: 50%;
+    background-image: url(assets/PayArrow640.png);
+  }
+  .ArrowsRight {
+    position: absolute;
+    top: 2628px;
+    width: 50px;
+    height: 52px;
+    left: 650px;
+    display: block;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-image: url(assets/PayArrow640.png);
+  }
+  .Ellipse1 {
+    left: 35px;
+  }
+  .Ellipse2 {
+    left: 420px;
+  }
+  .Ellipse3 {
+    left: 800px;
+  }
+}
+@media screen and (max-width: 984px) {
+  .pay-container {
+    background-position: left;
+    background-image: url(./assets/PayBackgr640.png);
+  }
+  .Arrows {
+    left: 245px;
+  }
+  .ArrowsRight {
+    left: 520px;
+  }
+  .Ellipse1 {
+    left: 35px;
+  }
+  .Ellipse2 {
+    left: 320px;
+  }
+  .Ellipse3 {
+    left: 600px;
+  }
+  .PayDonate {
+    top: 2500px;
+    width: 240px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 38px;
+    left: auto;
+    right: 3vw;
+  }
+  .text {
+    top: 2500px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Arrows {
+    top: 2548px;
+    left: 29vw;
+  }
+  .ArrowsRight {
+    top: 2548px;
+    left: 67vw;
+  }
+  .Ellipse1 {
+    left: 35px;
+  }
+  .Ellipse2 {
+    left: 40vw;
+  }
+  .Ellipse3 {
+    left: auto;
+    right: 35px;
+  }
+  .PayDonate {
+    filter: none;
+    top: 2420px;
+    width: 240px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 38px;
+    left: auto;
+    right: 3vw;
+  }
+  .text {
+    top: 2420px;
+  }
+  .Ellipse1,
+  .Ellipse2,
+  .Ellipse3 {
+    top: 2485px;
+    background-size: 85%;
+  }
+  .Ellipse1 p {
+    margin-left: -15px;
+    width: 180px;
+    text-align: center;
+  }
+  .Ellipse2 p,
+  .Ellipse3 p {
+    margin-left: -15px;
+    width: 180px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 640px) {
+  .pay-container {
+    height: 1600px;
+  }
+  .text {
+    top: 1788px;
+    left: 5.7vw;
+    font-size: 18px;
+  }
+  .PayDonate {
+    right: 5.7vw;
+    top: 1785px;
+  }
+  .Ellipse2 {
+    left: 38vw;
+  }
+  .Ellipse1,
+  .Ellipse2,
+  .Ellipse3 {
+    top: 1845px;
+    background-size: 80%;
+  }
+  .Ellipse1 p,
+  .Ellipse2 p,
+  .Ellipse3 p {
+    margin-top: 140px;
+  }
+  .Arrows {
+    top: 1910px;
+    left: 32vw;
+    background-size: 40%;
+  }
+  .ArrowsRight {
+    top: 1910px;
+    left: 66vw;
+    background-size: 40%;
+  }
+}
+@media screen and (max-width: 588px) {
+  .pay-container {
+    height: 1385px;
+    background-position: right;
+    background-image: url(./assets/PayBackgr320.png);
+  }
+  .text {
+    top: 2412px;
+    left: 4vw;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .PayDonate {
+    right: 3vw;
+    top: 3140px;
+    width: 295px;
+  }
+  .Ellipse2 {
+    top: 2675px;
+  }
+  .Ellipse1 {
+    top: 2440px;
+  }
+  .Ellipse3 {
+    top: 2910px;
+  }
+  .Ellipse1,
+  .Ellipse2,
+  .Ellipse3 {
+    left: 22vw;
+  }
+  .Ellipse1 p,
+  .Ellipse2 p,
+  .Ellipse3 p {
+    margin-top: 140px;
+  }
+  .Arrows {
+    top: 2880px;
+    left: 34vw;
+    background-size: 35%;
+    transform: rotate(90deg);
+  }
+  .ArrowsRight {
+    top: 2645px;
+    left: 34vw;
+    background-size: 35%;
+    transform: rotate(90deg);
+  }
+}
+@media screen and (max-width: 584px) {
+  .pay-container {
+    height: 1295px;
+    background-position: right;
+    background-image: url(./assets/PayBackgr320.png);
+  }
+}

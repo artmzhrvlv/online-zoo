@@ -1,0 +1,940 @@
+.pets_in_zoo {
+  position: absolute;
+  width: 141px;
+  height: 28px;
+  left: 220px;
+  top: 1848px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #0d444d;
+}
+.chooseyour {
+  position: absolute;
+  width: 331px;
+  height: 52px;
+  left: 1369px;
+  top: 1834px;
+  /* bttn text */
+
+  border: 1.5px solid #19707d;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+.chooseyour:hover {
+  background-color: #2a8086;
+}
+.chooseyour p:hover {
+  color: #c5d6d8;
+  text-align: left;
+}
+.chooseyour:active {
+  border-color: #0d1213;
+}
+.chooseyour p:active {
+  color: #050809;
+  text-align: left;
+  text-decoration: underline;
+}
+.chooseyour p {
+  position: absolute;
+  width: 300px;
+  height: 52px;
+  left: 58px;
+  top: -15px;
+  /* bttn text */
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 80px;
+  /* identical to box height */
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #19707d;
+  transition: 0.5s;
+}
+.Love {
+  position: absolute;
+  width: 20px;
+  height: 17px;
+  left: 18px;
+  top: 16px;
+  background-image: url(assets/VectorLove.png);
+}
+.LeftArrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1750px;
+  top: 2275px;
+  background-image: url(assets/BttnArrowLeft.png);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  transition: 0.5s;
+}
+.LeftArrow:hover {
+  cursor: pointer;
+  left: 1760px;
+}
+.RightArrow:hover {
+  cursor: pointer;
+  left: 1760px;
+}
+.RightArrow {
+  transition: 0.5s;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1750px;
+  top: 2330px;
+  background-image: url(assets/BttnArrowRight.png);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.Penguin {
+  position: absolute;
+  width: 33px;
+  height: 65.69px;
+  left: 1759px;
+  top: 2620px;
+  background-image: url(assets/Penguin.png);
+}
+/*----------Kartinki-------------------*/
+/*---------DLYA VSEX OBSHIE------------*/
+.VectorPanda {
+  position: absolute;
+  width: 480px;
+  height: 0px;
+  left: 0px;
+  top: 273px;
+  border: 1px solid #e5eaeb;
+}
+.TVIn {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 418px;
+  top: 302px;
+  background-image: url(assets/FrameTVin.png);
+}
+
+.Text11 {
+  position: absolute;
+  width: 81px;
+  height: 28px;
+  left: 30px;
+  top: 290px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2d2d2d;
+}
+.Text12 {
+  position: absolute;
+  width: 352px;
+  height: 19px;
+  left: 30px;
+  top: 324px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #919191;
+}
+/*------------PANDA--------------------*/
+.PandaFrame {
+  position: absolute;
+  width: 480px;
+  height: 364px;
+  left: 220px;
+  top: 1950px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.06);
+
+  background-color: #ffffff;
+}
+/*--------------------------------*/
+
+.PandaZoo2 {
+  position: relative;
+  overflow: hidden;
+  width: 231.9px;
+  height: 221.79px;
+  left: 116.39px;
+  top: 25px;
+  border-radius: 120% 120% 170% 100% / 120% 120% 150% 150%;
+  transition: transform 2s;
+}
+
+.PandaZoo2::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: fixed;
+
+  background: url(assets/PandaZooFull.png);
+  background-size: fixed;
+  transition: transform 2s;
+}
+
+.PandaZoo2:hover {
+  transform: rotate(360deg);
+}
+.PandaZoo2:hover::before {
+  transform: rotate(-360deg);
+}
+
+.VectorZoo {
+  position: relative;
+  z-index: 2;
+  width: 228.92px;
+  height: 221px;
+  left: 126px;
+  top: 20px;
+  transition: 0.5s;
+  color: transparent;
+  background: fixed;
+  background-color: white;
+}
+.VectorZoo:hover {
+  background: fixed;
+
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  background-color: transparent;
+}
+/*----------------EAGLE-----------------*/
+.EagleFrame {
+  position: absolute;
+  width: 480px;
+  height: 364px;
+  left: 720px;
+  top: 1950px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.06);
+
+  background-color: #ffffff;
+}
+.EagleZoo {
+  position: relative;
+  overflow: hidden;
+  width: 231.9px;
+  height: 221.79px;
+  left: 116.39px;
+  top: 25px;
+  border-radius: 120% 120% 170% 100% / 120% 120% 150% 150%;
+  transition: transform 2s;
+}
+
+.EagleZoo::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: fixed;
+
+  background: url(assets/EagleZoo2.png);
+  background-size: fixed;
+  transition: transform 2s;
+}
+
+.EagleZoo:hover {
+  transform: rotate(360deg);
+}
+.EagleZoo:hover::before {
+  transform: rotate(-360deg);
+}
+/*----------------GORILLA-----------------*/
+.GorillaFrame {
+  position: absolute;
+  width: 480px;
+  height: 364px;
+  left: 1220px;
+  top: 1950px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.06);
+
+  background-color: #ffffff;
+}
+.GorillaZoo {
+  position: relative;
+  overflow: hidden;
+  width: 231.9px;
+  height: 221.79px;
+  left: 116.39px;
+  top: 25px;
+  border-radius: 120% 120% 170% 100% / 120% 120% 150% 150%;
+  transition: transform 2s;
+}
+
+.GorillaZoo::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: fixed;
+
+  background: url(assets/GorillaZoo2.png);
+  background-size: fixed;
+  transition: transform 2s;
+}
+
+.GorillaZoo:hover {
+  transform: rotate(360deg);
+}
+.GorillaZoo:hover::before {
+  transform: rotate(-360deg);
+}
+/*----------------ALIGATOR-----------------*/
+.AligatorFrame {
+  position: absolute;
+  width: 480px;
+  height: 364px;
+  left: 220px;
+  top: 2334px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.06);
+
+  background-color: #ffffff;
+}
+.AligatorZoo {
+  position: relative;
+  overflow: hidden;
+  width: 231.9px;
+  height: 221.79px;
+  left: 116.39px;
+  top: 25px;
+  border-radius: 120% 120% 170% 100% / 120% 120% 150% 150%;
+  transition: transform 2s;
+}
+
+.AligatorZoo::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: fixed;
+
+  background: url(assets/AligatorZoo2.png);
+  background-size: fixed;
+  transition: transform 2s;
+}
+
+.AligatorZoo:hover {
+  transform: rotate(360deg);
+}
+.AligatorZoo:hover::before {
+  transform: rotate(-360deg);
+}
+/*----------------ELEPHANT-----------------*/
+.ElephantFrame {
+  position: absolute;
+  width: 480px;
+  height: 364px;
+  left: 720px;
+  top: 2334px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.06);
+
+  background-color: #ffffff;
+}
+.ElephantZoo {
+  position: relative;
+  overflow: hidden;
+  width: 231.9px;
+  height: 221.79px;
+  left: 116.39px;
+  top: 25px;
+  border-radius: 120% 120% 170% 100% / 120% 120% 150% 150%;
+  transition: transform 2s;
+}
+
+.ElephantZoo::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: fixed;
+
+  background: url(assets/ElephantZoo2.png);
+  background-size: fixed;
+  transition: transform 2s;
+}
+
+.ElephantZoo:hover {
+  transform: rotate(360deg);
+}
+.ElephantZoo:hover::before {
+  transform: rotate(-360deg);
+}
+/*----------------LEMUR-----------------*/
+.LemurFrame {
+  position: absolute;
+  width: 480px;
+  height: 364px;
+  left: 1220px;
+  top: 2334px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.06);
+
+  background-color: #ffffff;
+}
+
+.LemurZoo {
+  position: relative;
+  overflow: hidden;
+  width: 231.9px;
+  height: 221.79px;
+  left: 116.39px;
+  top: 25px;
+  border-radius: 120% 120% 170% 100% / 120% 120% 150% 150%;
+  transition: transform 2s;
+}
+
+.LemurZoo::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: fixed;
+
+  background: url(assets/LemurZoo2.png);
+  background-size: fixed;
+  transition: transform 2s;
+}
+
+.LemurZoo:hover {
+  transform: rotate(360deg);
+}
+.LemurZoo:hover::before {
+  transform: rotate(-360deg);
+}
+@media screen and (max-width: 1820px) {
+  .pets_in_zoo {
+    top: 1800px;
+    left: 2.5vw;
+  }
+  .PandaFrame,
+  .EagleFrame,
+  .GorillaFrame {
+    top: 1890px;
+  }
+  .AligatorFrame,
+  .ElephantFrame,
+  .LemurFrame {
+    top: 2290px;
+  }
+  .PandaFrame,
+  .AligatorFrame {
+    left: 30px;
+  }
+  .EagleFrame,
+  .ElephantFrame {
+    left: 550px;
+  }
+  .GorillaFrame,
+  .LemurFrame {
+    left: 1070px;
+  }
+  .chooseyour {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 75vw;
+    top: 1800px;
+  }
+  .chooseyour p {
+    width: 280px;
+    letter-spacing: 0.6px;
+    line-height: 75px;
+  }
+  .Love {
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    left: 18px;
+    top: 15px;
+  }
+  .LeftArrow {
+    left: 1550px;
+    top: 2200px;
+  }
+
+  .RightArrow {
+    left: 1550px;
+    top: 2300px;
+  }
+  .Penguin {
+    width: 33px;
+    height: 65.69px;
+    left: 1550px;
+    top: 2550px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .PandaFrame,
+  .EagleFrame,
+  .GorillaFrame,
+  .AligatorFrame,
+  .ElephantFrame,
+  .LemurFrame {
+    width: 336.72px;
+    height: 273.41px;
+  }
+  .AligatorFrame,
+  .ElephantFrame,
+  .LemurFrame {
+    top: 2195px;
+  }
+  .PandaFrame,
+  .AligatorFrame {
+    left: 30px;
+  }
+  .EagleFrame,
+  .ElephantFrame {
+    left: 400px;
+  }
+  .GorillaFrame,
+  .LemurFrame {
+    left: 770px;
+  }
+  .PandaZoo2,
+  .ElephantZoo,
+  .EagleZoo,
+  .GorillaZoo,
+  .AligatorZoo,
+  .LemurZoo {
+    width: 168px;
+    height: 160px;
+    left: 90px;
+  }
+  .PandaZoo2,
+  .EagleZoo,
+  .GorillaZoo {
+    top: 25px;
+  }
+  .VectorPanda {
+    width: 336.72px;
+    top: 200px;
+  }
+  .Text11 {
+    width: 81px;
+    height: 28px;
+    left: 20px;
+    top: 212px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .Text12 {
+    width: 352px;
+    height: 19px;
+    left: 20px;
+    top: 240px;
+    font-size: 12px;
+  }
+  .TVIn {
+    width: 32px;
+    height: 32px;
+    left: 295px;
+    top: 225px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+  }
+  .LeftArrow {
+    left: 1100px;
+    top: 2100px;
+  }
+
+  .RightArrow {
+    left: 1100px;
+    top: 2200px;
+  }
+  .Penguin {
+    width: 33px;
+    height: 65.69px;
+    left: 1150px;
+    top: 2350px;
+  }
+  .chooseyour p {
+    width: 240px;
+    letter-spacing: 0.6px;
+    line-height: 75px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .pets_in_zoo {
+    top: 1600px;
+    left: 2.5vw;
+  }
+  .AligatorFrame,
+  .ElephantFrame,
+  .LemurFrame {
+    top: 1995px;
+  }
+  .PandaFrame,
+  .EagleFrame,
+  .GorillaFrame {
+    top: 1690px;
+  }
+
+  .chooseyour {
+    width: 300px;
+    height: 40px;
+    left: 869px;
+    top: 1595px;
+  }
+  .chooseyour p {
+    letter-spacing: 0.6px;
+    line-height: 65px;
+  }
+  .Love {
+    width: 20px;
+    height: 17px;
+    left: 18px;
+    top: 10px;
+  }
+  .LeftArrow {
+    left: 1120px;
+    top: 1920px;
+  }
+
+  .RightArrow {
+    left: 1120px;
+    top: 1970px;
+  }
+  .Penguin {
+    width: 33px;
+    height: 65.69px;
+    left: 1125px;
+    top: 2195px;
+  }
+}
+@media screen and (max-width: 1172px) {
+  .GorillaFrame,
+  .LemurFrame {
+    display: none;
+  }
+  .chooseyour {
+    right: 20vw;
+    left: auto;
+  }
+  .LeftArrow {
+    top: 1920px;
+    right: 20vw;
+    left: auto;
+  }
+
+  .RightArrow {
+    right: 20vw;
+    left: auto;
+    top: 1970px;
+  }
+  .Penguin {
+    right: 20vw;
+    left: auto;
+    top: 2195px;
+  }
+}
+@media screen and (max-width: 984px) {
+  .chooseyour {
+    right: 2vw;
+    left: auto;
+  }
+  .chooseyour p {
+    width: auto;
+  }
+  .LeftArrow {
+    top: 1920px;
+    right: 2vw;
+    left: auto;
+  }
+
+  .RightArrow {
+    right: 2vw;
+    left: auto;
+    top: 1970px;
+  }
+  .Penguin {
+    right: 2vw;
+    left: auto;
+    top: 2195px;
+  }
+
+  .PandaFrame,
+  .EagleFrame,
+  .GorillaFrame,
+  .AligatorFrame,
+  .ElephantFrame,
+  .LemurFrame {
+    width: 256px;
+    height: 298px;
+  }
+
+  .PandaFrame,
+  .AligatorFrame {
+    left: 30px;
+  }
+  .EagleFrame,
+  .ElephantFrame {
+    left: 310px;
+  }
+  .GorillaFrame,
+  .LemurFrame {
+    left: 770px;
+  }
+  .PandaZoo2,
+  .ElephantZoo,
+  .EagleZoo,
+  .GorillaZoo,
+  .AligatorZoo,
+  .LemurZoo {
+    width: 168px;
+    height: 160px;
+    left: 42px;
+    top: 30px;
+  }
+  .PandaZoo2,
+  .EagleZoo,
+  .GorillaZoo {
+    top: 25px;
+  }
+  .VectorPanda {
+    width: 256px;
+    top: 220px;
+  }
+  .Text11 {
+    width: 81px;
+    height: 28px;
+    left: 20px;
+    top: 227px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .Text12 {
+    width: 222px;
+    height: 19px;
+    left: 20px;
+    top: 257px;
+    font-size: 12px;
+  }
+  .TVIn {
+    width: 32px;
+    height: 32px;
+    left: 215px;
+    top: 20px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 640px) {
+  .PandaFrame,
+  .EagleFrame,
+  .GorillaFrame,
+  .AligatorFrame,
+  .ElephantFrame,
+  .LemurFrame {
+    width: 256px;
+    height: 298px;
+  }
+  .PandaFrame,
+  .EagleFrame {
+    top: 1070px;
+  }
+  .AligatorFrame,
+  .ElephantFrame,
+  .LemurFrame {
+    top: 1390px;
+  }
+  .PandaFrame,
+  .AligatorFrame {
+    left: 30px;
+  }
+  .EagleFrame,
+  .ElephantFrame {
+    left: 310px;
+  }
+  .GorillaFrame,
+  .LemurFrame {
+    left: 770px;
+  }
+  .PandaZoo2,
+  .ElephantZoo,
+  .EagleZoo,
+  .GorillaZoo,
+  .AligatorZoo,
+  .LemurZoo {
+    width: 168px;
+    height: 160px;
+    left: 42px;
+    top: 30px;
+  }
+  .PandaZoo2,
+  .EagleZoo,
+  .GorillaZoo {
+    top: 25px;
+  }
+  .VectorPanda {
+    width: 256px;
+    top: 220px;
+  }
+  .Text11 {
+    width: 81px;
+    height: 28px;
+    left: 20px;
+    top: 227px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .Text12 {
+    width: 222px;
+    height: 19px;
+    left: 20px;
+    top: 257px;
+    font-size: 12px;
+  }
+  .TVIn {
+    width: 32px;
+    height: 32px;
+    left: 215px;
+    top: 20px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+  }
+  .pets_in_zoo {
+    top: 1020px;
+    font-size: 12px;
+    left: 3vw;
+  }
+  .chooseyour {
+    right: auto;
+    left: 315px;
+    top: 1015px;
+    width: 265px;
+    height: 36px;
+  }
+  .chooseyour p {
+    font-size: 15px;
+  }
+  .Love {
+    background-repeat: no-repeat;
+    background-size: 80%;
+  }
+  .LeftArrow {
+    top: 1335px;
+    right: 25px;
+    left: auto;
+  }
+
+  .RightArrow {
+    right: 25px;
+    left: auto;
+    top: 1390px;
+  }
+  .Penguin {
+    right: 35px;
+    left: auto;
+    top: 1620px;
+  }
+}
+@media screen and (max-width: 628px) {
+  .EagleFrame,
+  .ElephantFrame {
+    display: none;
+  }
+  .Penguin {
+    display: none;
+  }
+}
+@media screen and (max-width: 588px) {
+  .pets_in_zoo {
+    top: 1555px;
+  }
+  .PandaFrame,
+  .AligatorFrame {
+    width: 240px;
+    height: 312px;
+  }
+  .PandaFrame {
+    top: 1600px;
+  }
+  .AligatorFrame {
+    top: 1930px;
+  }
+  .PandaFrame,
+  .AligatorFrame {
+    left: 25px;
+  }
+  .PandaZoo2,
+  .AligatorZoo {
+    width: 160px;
+    height: 145px;
+    left: 42px;
+    top: 50px;
+  }
+  .chooseyour {
+    top: 2300px;
+    left: 30px;
+  }
+  .chooseyour p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    left: 47px;
+    line-height: 63px;
+  }
+  .VectorPanda {
+    width: 240px;
+    top: 229px;
+  }
+  .Text11 {
+    width: 81px;
+    height: 28px;
+    left: 16px;
+    top: 238px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .Text12 {
+    width: 222px;
+    height: 19px;
+    left: 16px;
+    top: 270px;
+    font-size: 13px;
+  }
+  .TVIn {
+    width: 32px;
+    height: 32px;
+    left: 192px;
+    top: 20px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+  .LeftArrow {
+    top: 1865px;
+    right: 5px;
+    left: auto;
+  }
+
+  .RightArrow {
+    right: 5px;
+    left: auto;
+    top: 1915px;
+  }
+}

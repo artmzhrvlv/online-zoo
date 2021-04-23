@@ -1,0 +1,389 @@
+.watch-container {
+  height: 773px;
+  filter: drop-shadow(0px 1px 10px rgba(18, 87, 91, 0.25));
+  background-image: url(assets/Hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /*background-attachment: fixed;*/
+}
+.watch-wrapper {
+  margin-left: 11.25%;
+  height: 778px;
+  margin-right: 7%;
+  display: flex;
+}
+.outer-block-watch {
+  display: flex;
+  margin-bottom: 0;
+  flex: 0 0 4.4vw;
+}
+.Panda .xxx {
+  /* Panda */
+  position: absolute;
+  width: 803.93px;
+  height: 666px;
+  right: 11.5vw;
+  top: 44px;
+}
+.PandaPlay {
+  position: absolute;
+  width: 120.21px;
+  height: 120.21px;
+  right: 27.5vw;
+  top: 356px;
+}
+
+.HeroText1 {
+  position: absolute;
+  width: 750px;
+  height: 160px;
+  left: 11.5vw;
+  top: 105px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 68px;
+  line-height: 85px;
+  letter-spacing: 2px;
+  /* hero-text */
+
+  color: #f3f7f8;
+}
+.HeroText0 {
+  position: absolute;
+  width: 750px;
+  height: 160px;
+  left: 11.5vw;
+  top: 186px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 85px;
+  letter-spacing: 2px;
+  /* hero-text */
+
+  color: #f3f7f8;
+}
+
+.HeroText2 {
+  position: absolute;
+  width: 480px;
+  height: 40px;
+  left: 11.5vw;
+  top: 290px;
+
+  /* text */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  /* hero-text */
+
+  color: #f3f7f8;
+}
+.watchnow-donate a {
+  visibility: hidden;
+}
+.WatchNow a {
+  position: absolute;
+  width: 258px;
+  height: 52px;
+  left: 11.5vw;
+  top: 420px;
+  text-align: center;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 49px;
+  /* identical to box height */
+  text-decoration: none;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #0d444d;
+  border: 1px solid #c5d6d8;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background-color: white;
+}
+.WatchNow a:hover {
+  background-color: #71b7c2;
+  color: #237380;
+}
+.WatchNow a:active {
+  filter: drop-shadow(0px 2px 9px rgba(185, 213, 217, 0.6));
+  background-color: #237380;
+  color: #c5d6d8;
+  text-decoration: underline;
+}
+@media screen and (min-width: 1921px) {
+  .watch-wrapper {
+    margin: auto;
+  }
+  .watch-container {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1620px) {
+  .Panda .xxx {
+    width: 559px;
+    height: 463px;
+    right: 3vw;
+    top: 55px;
+  }
+  .PandaPlay {
+    width: 80px;
+    height: 80px;
+    right: 20.7vw;
+    top: 281px;
+  }
+
+  .watch-wrapper {
+    margin-left: 2.8vw;
+  }
+  .HeroText1,
+  .HeroText2,
+  .HeroText0,
+  .WatchNow {
+    left: 2.8vw;
+  }
+  .HeroText0 {
+    top: 166px;
+    font-size: 50px;
+    letter-spacing: 0px;
+  }
+  .HeroText1 {
+    font-size: 64px;
+    letter-spacing: 0px;
+  }
+  .HeroText2 {
+    top: 266px;
+    line-height: 32px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .watch-container {
+    height: 657px;
+    background-image: url(./assets/Hero1200.png);
+  }
+  .WatchNow a {
+    left: 2.8vw;
+    top: 398px;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .Panda .xxx {
+    width: 455px;
+    height: 411px;
+    right: 3vw;
+    top: 55px;
+  }
+  .PandaPlay {
+    width: 80px;
+    height: 80px;
+    right: 20.5vw;
+    top: 240px;
+  }
+  .HeroText0 {
+    width: 320px;
+    top: 166px;
+    font-size: 40px;
+  }
+  .HeroText1 {
+    font-size: 50px;
+  }
+  .HeroText2 {
+    top: 266px;
+    width: 400px;
+    line-height: 18px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 936px) {
+  .Panda .xxx {
+    width: 355px;
+    height: 311px;
+    right: 3vw;
+    top: 55px;
+  }
+  .PandaPlay {
+    width: 60px;
+    height: 60px;
+    right: 18.5vw;
+    top: 200px;
+  }
+  .HeroText0 {
+    top: 106px;
+    font-size: 40px;
+  }
+  .HeroText1 {
+    top: 50px;
+    font-size: 50px;
+  }
+  .HeroText2 {
+    top: 206px;
+    width: 330px;
+    line-height: 18px;
+    font-size: 14px;
+  }
+  .WatchNow a {
+    left: 2vw;
+    top: 298px;
+    width: 220px;
+  }
+  .watchnow-donate a {
+    visibility: visible;
+    position: absolute;
+    width: 220px;
+    height: 52px;
+    left: 31.5vw;
+    top: 298px;
+    text-align: center;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 49px;
+    /* identical to box height */
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #0d444d;
+    border: 1px solid #c5d6d8;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: #c5e1e6;
+  }
+}
+@media screen and (max-width: 854px) {
+  .Panda .xxx {
+    width: 255px;
+    height: 211px;
+    right: 3vw;
+    top: 115px;
+  }
+  .PandaPlay {
+    width: 80px;
+    height: 80px;
+    right: 17.5vw;
+    top: 165px;
+  }
+  .HeroText0 {
+    top: 126px;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  .HeroText1 {
+    width: 320px;
+    top: 85px;
+    font-size: 36px;
+  }
+  .HeroText2 {
+    top: 208px;
+    width: 290px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .WatchNow a {
+    left: 3vw;
+    top: 315px;
+    width: 170px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 39px;
+  }
+  .watchnow-donate a {
+    width: 170px;
+    height: 40px;
+    left: 32.5vw;
+    top: 315px;
+    font-size: 14px;
+    line-height: 39px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .watch-container {
+    height: 558px;
+    background-image: url(./assets/Hero640.png);
+    filter: none;
+  }
+}
+@media screen and (max-width: 584px) {
+  .watch-container {
+    height: 631px;
+    background-image: url(./assets/Hero580.png);
+  }
+  .Panda .xxx {
+    width: 255px;
+    height: 211px;
+    right: 10vw;
+    top: 80px;
+  }
+  .PandaPlay {
+    width: 80px;
+    height: 80px;
+    right: 30.5vw;
+    top: 145px;
+  }
+  .HeroText0 {
+    top: 308px;
+    font-size: 28px;
+    width: 290px;
+    letter-spacing: 1px;
+  }
+  .HeroText1 {
+    width: 320px;
+    top: 275px;
+    width: 290px;
+    font-size: 32px;
+  }
+  .HeroText2 {
+    top: 385px;
+    width: 290px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .WatchNow a {
+    left: 3vw;
+    top: 480px;
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 39px;
+  }
+  .watchnow-donate a {
+    width: 140px;
+    height: 40px;
+    left: 53.5vw;
+    top: 480px;
+    font-size: 14px;
+    line-height: 39px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Panda .xxx {
+    width: 255px;
+    height: 211px;
+    right: 10vw;
+    top: 70px;
+  }
+  .PandaPlay {
+    width: 80px;
+    height: 80px;
+    right: 38.5vw;
+    top: 125px;
+  }
+  .watch-container {
+    height: 631px;
+    background-image: url(./assets/Hero320.png);
+  }
+}

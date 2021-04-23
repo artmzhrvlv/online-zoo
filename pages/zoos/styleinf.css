@@ -1,0 +1,606 @@
+.information-wrapper {
+  position: absolute;
+  width: 66.3%;
+  height: 620px;
+  top: 1248px;
+  left: 19.5%;
+}
+.inf1 {
+  /* Information */
+
+  position: absolute;
+  width: 156px;
+  height: 28px;
+  left: 0px;
+  top: 38px;
+
+  /* H2 */
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #0d444d;
+  /* black */
+}
+.frame1250 {
+  position: absolute;
+  width: 355px;
+  height: 53px;
+  left: 0px;
+  top: 346px;
+}
+.bamboo {
+  position: absolute;
+  width: 350px;
+  height: 20px;
+  left: 0px;
+  top: 30px;
+
+  /* text */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* black */
+
+  color: #0d444d;
+}
+.tof {
+  position: absolute;
+  width: 90px;
+  height: 19px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* black */
+
+  color: #0d444d;
+}
+.frame1306 {
+  position: absolute;
+  width: 604px;
+  height: 65px;
+  left: 0px;
+  top: 515px;
+}
+.absis {
+  position: absolute;
+  width: 102px;
+  height: 19px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* black */
+
+  color: #0d444d;
+}
+.theya {
+  position: absolute;
+  width: 528px;
+  height: 40px;
+  left: 0px;
+  top: 32px;
+
+  /* text */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  /* black */
+
+  color: #0d444d;
+}
+.infa {
+  /* Interesting Facts */
+
+  position: absolute;
+  width: 230px;
+  height: 28px;
+  left: 52.7%;
+  top: 40px;
+
+  /* H2 */
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+  /* black */
+
+  color: #0d444d;
+}
+.tgipa {
+  position: absolute;
+  width: 574px;
+  height: 340px;
+  left: 23px;
+  top: 13px;
+
+  /* text */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  /* black */
+
+  color: #0d444d;
+}
+.stroki {
+  position: absolute;
+  width: 604px;
+  height: 348px;
+  left: 52.7%;
+  top: 90px;
+}
+.strokiblock {
+  position: absolute;
+  width: 597px;
+  height: 320px;
+  left: 0px;
+  top: 0px;
+}
+.ul1 {
+  /* Vector 31 */
+
+  position: absolute;
+  width: 12.36px;
+  height: 15.98px;
+  left: 0px;
+  top: 268.98px;
+}
+.ul2 {
+  position: absolute;
+  width: 12.36px;
+  height: 15.98px;
+  left: 0px;
+  top: 310.98px;
+
+  /* black */
+}
+.ul3 {
+  position: absolute;
+  width: 12.36px;
+  height: 15.98px;
+  left: 0px;
+  top: 143.98px;
+
+  /* black */
+}
+.ul4 {
+  position: absolute;
+  width: 12.36px;
+  height: 15.98px;
+  left: 0px;
+  top: 209.98px;
+
+  /* black */
+}
+.ul5 {
+  position: absolute;
+  width: 12.36px;
+  height: 15.98px;
+  left: 0px;
+  top: 84.98px;
+
+  /* black */
+}
+.ul6 {
+  position: absolute;
+  width: 12.36px;
+  height: 15.98px;
+  left: 0px;
+  top: 24.98px;
+
+  /* black */
+}
+.frame1248 {
+  position: absolute;
+  width: 355px;
+  height: 53px;
+  left: 0px;
+  top: 181px;
+}
+.toa {
+  position: absolute;
+  width: 99px;
+  height: 19px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* black */
+
+  color: #0d444d;
+}
+.toa2 {
+  position: absolute;
+  width: 223px;
+  height: 20px;
+  left: 0px;
+  top: 30px;
+
+  /* text */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* black */
+
+  color: #0d444d;
+}
+.frame1254 {
+  position: absolute;
+  width: 655px;
+  height: 53px;
+  left: 0px;
+  top: 433px;
+}
+.kolvo {
+  position: absolute;
+  width: 655px;
+  height: 20px;
+  left: 0px;
+  top: 27px;
+
+  /* text */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* black */
+
+  color: #0d444d;
+}
+.popul {
+  position: absolute;
+  width: 164px;
+  height: 19px;
+  left: 0px;
+  top: -4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* black */
+
+  color: #0d444d;
+}
+.frame1289 {
+  /* Frame 1289 */
+
+  position: absolute;
+  width: 355px;
+  height: 53px;
+  left: 0px;
+  top: 256px;
+}
+.habitat {
+  position: absolute;
+  width: 53px;
+  height: 19px;
+  left: 0px;
+  top: 7px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* black */
+
+  color: #0d444d !important;
+}
+.habitat2 {
+  position: absolute;
+  width: 550px;
+  height: 20px;
+  left: 0px;
+  top: 51px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-decoration-line: underline;
+
+  /* black */
+
+  color: #0d444d;
+
+  text-shadow: 0px 4px 10px #c5e1e5;
+}
+.frame1247 {
+  position: absolute;
+  width: 355px;
+  height: 53px;
+  left: 0px;
+  top: -160px;
+}
+.zpark {
+  position: absolute;
+  width: 420px;
+  height: 20px;
+  left: 0px;
+  top: 48px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-decoration-line: underline;
+
+  /* black */
+
+  color: #0d444d;
+  text-shadow: 0px 4px 10px #c5e1e5;
+}
+.zpark2 {
+  position: absolute;
+  width: 28px;
+  height: 19px;
+  left: 0px;
+  top: 4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* black */
+
+  color: #0d444d;
+
+  color: #0d444d;
+}
+@media screen and (max-width: 1640px) {
+  .information-wrapper {
+    left: 20.5%;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .stroki {
+    left: 40.7%;
+  }
+  .theya {
+    width: 358px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .information-wrapper {
+    left: 15.5%;
+    top: 1108px;
+  }
+}
+@media screen and (max-width: 1051px) {
+  .stroki {
+    top: 670px;
+    left: 9.7%;
+  }
+  .infa {
+    left: 32.7%;
+    top: 630px;
+  }
+  .inf1,
+  .frame1250,
+  .frame1306,
+  .frame1248,
+  .frame1254,
+  .frame1289 {
+    left: 260px;
+    width: 358px;
+  }
+  .kolvo {
+    width: 358px;
+  }
+  .habitat2,
+  .zpark {
+    width: 358px;
+  }
+  .information-wrapper {
+    top: 1078px;
+  }
+}
+@media screen and (max-width: 781px) {
+  .stroki {
+    top: 670px;
+    left: 5.7%;
+  }
+  .inf1,
+  .frame1250,
+  .frame1306,
+  .frame1248,
+  .frame1254,
+  .frame1289 {
+    left: 100px;
+    width: 358px;
+  }
+  .tgipa {
+    width: 484px;
+  }
+  .strokiblock,
+  .stroki {
+    width: 426px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .information-wrapper {
+    top: 668px;
+  }
+  .inf1,
+  .frame1250,
+  .frame1306,
+  .frame1248,
+  .frame1254,
+  .frame1289 {
+    left: -11px;
+  }
+  .zpark2 {
+    top: -10px;
+  }
+  .zpark {
+    top: 15px;
+  }
+  .toa {
+    top: -30px;
+  }
+  .toa2 {
+    top: -5px;
+  }
+  .habitat {
+    top: -40px;
+  }
+  .habitat2 {
+    top: -15px;
+  }
+  .tof {
+    top: -60px;
+  }
+  .bamboo {
+    top: -35px;
+  }
+  .kolvo {
+    top: -55px;
+  }
+  .popul {
+    top: -80px;
+  }
+  .absis {
+    top: -97px;
+  }
+  .theya {
+    top: -72px;
+    width: 476px;
+  }
+  .infa {
+    font-size: 18px;
+
+    left: -2%;
+    top: 500px;
+  }
+  .inf1 {
+    font-size: 18px;
+  }
+  .strokiblock,
+  .stroki {
+    width: 326px;
+    left: -5px;
+    top: 269px;
+  }
+}
+@media screen and (max-width: 592px) {
+  .theya {
+    top: -72px;
+    width: 316px;
+  }
+  .tgipa {
+    width: 354px;
+  }
+}
+@media screen and (max-width: 411px) {
+  .strokiblock,
+  .stroki {
+    left: -25px;
+  }
+  .inf1,
+  .frame1250,
+  .frame1306,
+  .frame1248,
+  .frame1254,
+  .frame1289 {
+    left: -11px;
+    width: 230px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .information-wrapper {
+    top: 568px;
+  }
+  .inf1,
+  .frame1250,
+  .frame1306,
+  .frame1248,
+  .frame1254,
+  .frame1289 {
+    left: -11px;
+    width: 220px;
+  }
+  .theya {
+    top: -72px;
+    width: 276px;
+  }
+
+  .strokiblock,
+  .stroki {
+    width: 256px;
+    left: -21px;
+    top: 288px;
+  }
+  .tgipa {
+    width: 296px;
+  }
+  .infa {
+    font-size: 18px;
+    left: -2%;
+    top: 544px;
+  }
+}

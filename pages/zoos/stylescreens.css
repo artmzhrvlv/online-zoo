@@ -1,0 +1,1009 @@
+* {
+  margin: 0;
+}
+.screens-container {
+  position: absolute;
+  top: 160px;
+  right: 11.5%;
+  width: 69%;
+  height: 1029px;
+}
+.btni {
+  /* Bttn */
+
+  position: absolute;
+  width: 3.1%;
+  height: 42px;
+  left: 92%;
+  top: 4px;
+}
+.btni:hover .ibtn {
+  filter: invert(1);
+}
+.btni:hover .rectangle20 {
+  filter: invert(1);
+}
+.ibtn {
+  /* i */
+
+  position: absolute;
+  width: 6px;
+  height: 28px;
+  left: 18px;
+  top: 7px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: lowercase;
+
+  color: #19707d;
+}
+
+.rectangle20 {
+  /* Rectangle 20 */
+
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+
+  /* bttn-lined */
+
+  border: 1.5px solid #19707d;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+.btnh {
+  /* Bttn */
+
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 97.5%;
+  top: 4px;
+}
+
+.rectangle40 {
+  /* Rectangle 20 */
+
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+
+  /* bttn-lined */
+
+  border: 1.5px solid #19707d;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+.hframe {
+  /* Frame */
+
+  position: absolute;
+  left: 25.43%;
+  right: 21.43%;
+  top: 27.19%;
+  bottom: 16.67%;
+}
+.btnh:hover .rectangle40 {
+  filter: invert(1);
+}
+.btnh:hover .hframe {
+  filter: invert(1);
+}
+
+.screens-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 604px;
+  left: 0px;
+  top: 99px;
+  margin: 1 auto;
+}
+
+.videopanda {
+  position: absolute;
+  width: 100%;
+  height: 604px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 19.5469px;
+}
+.mcam {
+  position: absolute;
+  width: 118px;
+  height: 21px;
+  left: 2px;
+  top: -35px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+
+  /* black */
+
+  color: #0d444d;
+}
+.tgp {
+  position: absolute;
+  width: 221px;
+  height: 28px;
+  left: 0px;
+  top: -100px;
+
+  /* H2 */
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+  /* black */
+
+  color: #0d444d;
+}
+
+.frame1362 {
+  position: absolute;
+  width: 3.77%;
+  height: 104px;
+  left: 100%;
+  top: 856px;
+}
+.btnleft {
+  position: absolute;
+  width: 30px;
+  height: 52px;
+  left: 15px;
+  top: 52px;
+
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.btnrigth {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  left: -20px;
+  top: 0px;
+}
+.btn111 {
+  position: absolute;
+  width: 15px;
+  height: 21px;
+  left: 32.5px;
+  top: 15.5px;
+
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.btn222 {
+  position: absolute;
+  width: 15px;
+  height: 21px;
+  left: 19.5px;
+  top: 15.5px;
+}
+.btnleft:hover .btn111 {
+  filter: invert(1);
+}
+.btnrigth:hover .btn222 {
+  filter: invert(1);
+}
+.scamtext {
+  position: absolute;
+  width: 115px;
+  height: 21px;
+  left: 7px;
+  top: 758px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+
+  /* black */
+
+  color: #0d444d;
+}
+.framecam {
+  position: absolute;
+  width: 90.86%;
+  height: 240px;
+  left: 0px;
+  top: 788px;
+}
+.cam1 {
+  position: absolute;
+  width: 31.5%;
+  height: 240px;
+  left: 0%;
+  top: 0px;
+
+  border-radius: 17.4583px;
+}
+.cam2 {
+  position: absolute;
+  width: 31.5%;
+  height: 240px;
+  left: 35%;
+  top: 0px;
+
+  border-radius: 17.4583px;
+}
+.cam3 {
+  position: absolute;
+  width: 31.5%;
+  height: 240px;
+  left: 68.5%;
+  top: 0px;
+  border-radius: 17.4583px;
+}
+.livebtn {
+  position: absolute;
+  width: 65.47px;
+  height: 30.55px;
+  left: 27.93px;
+  top: 24.44px;
+}
+.rectangle45 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: rgba(46, 46, 46, 0.8);
+  border-radius: 8.72917px;
+}
+.livetext {
+  position: absolute;
+  left: 16.93px;
+  top: 7px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.2208px;
+  line-height: 14px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+@media screen and (max-width: 1200px) {
+  .screens-container {
+    position: absolute;
+    top: 140px;
+    left: 162px;
+    width: 83.91%;
+    height: 1029px;
+  }
+  .btni {
+    /* Bttn */
+
+    position: absolute;
+    width: 3.1%;
+    height: 42px;
+    left: 88%;
+    top: 4px;
+  }
+  .btni:hover .ibtn {
+    filter: invert(1);
+  }
+  .btni:hover .rectangle20 {
+    filter: invert(1);
+  }
+  .ibtn {
+    /* i */
+
+    position: absolute;
+    width: 6px;
+    height: 28px;
+    left: 18px;
+    top: 7px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: lowercase;
+
+    color: #19707d;
+  }
+
+  .rectangle20 {
+    /* Rectangle 20 */
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+
+    /* bttn-lined */
+
+    border: 1.5px solid #19707d;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }
+  .btnh {
+    /* Bttn */
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 95.5%;
+    top: 4px;
+  }
+
+  .rectangle40 {
+    /* Rectangle 20 */
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+
+    /* bttn-lined */
+
+    border: 1.5px solid #19707d;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }
+  .hframe {
+    /* Frame */
+
+    position: absolute;
+    left: 25.43%;
+    right: 21.43%;
+    top: 27.19%;
+    bottom: 16.67%;
+  }
+  .btnh:hover .rectangle40 {
+    filter: invert(1);
+  }
+  .btnh:hover .hframe {
+    filter: invert(1);
+  }
+
+  .screens-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 604px;
+    left: 0px;
+    top: 85px;
+    margin: 1 auto;
+  }
+
+  .videopanda {
+    position: absolute;
+    width: 100%;
+    height: 604px;
+    left: 6px;
+    top: 0px;
+
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 19.5469px;
+  }
+  .mcam {
+    position: absolute;
+    width: 118px;
+    height: 21px;
+    left: 2px;
+    top: -35px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+
+    /* black */
+
+    color: #0d444d;
+  }
+  .tgp {
+    position: absolute;
+    width: 221px;
+    height: 28px;
+    left: 0px;
+    top: -85px;
+
+    /* H2 */
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+
+    /* black */
+
+    color: #0d444d;
+  }
+  .frame1362 {
+    position: absolute;
+    width: 4.97%;
+    height: 104px;
+    left: 960px;
+    top: 786px;
+  }
+  .btnleft {
+    position: absolute;
+    width: 50%;
+    height: 52px;
+    left: 25px;
+    top: 52px;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  .btnrigth {
+    position: absolute;
+    width: 50%;
+    height: 52px;
+    left: -32px;
+    top: 0px;
+  }
+  .btn111 {
+    position: absolute;
+    width: 15px;
+    height: 21px;
+    left: 32.5px;
+    top: 15.5px;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  .btn222 {
+    position: absolute;
+    width: 15px;
+    height: 21px;
+    left: 32.5px;
+    top: 15.5px;
+  }
+  .btnleft:hover .btn111 {
+    filter: invert(1);
+  }
+  .btnrigth:hover .btn222 {
+    filter: invert(1);
+  }
+  .scamtext {
+    position: absolute;
+    width: 115px;
+    height: 21px;
+    left: 7px;
+    top: 710px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+
+    /* black */
+
+    color: #0d444d;
+  }
+  .framecam {
+    position: absolute;
+    width: 90.86%;
+    height: 240px;
+    left: 70px;
+    top: 805px;
+  }
+  .cam1 {
+    position: absolute;
+    width: 32%;
+    height: 190px;
+    left: -65px;
+    top: -65px;
+
+    border-radius: 17.4583px;
+  }
+  .cam2 {
+    position: absolute;
+    width: 32%;
+    height: 190px;
+    left: 260px;
+    top: -65px;
+
+    border-radius: 17.4583px;
+  }
+  .cam3 {
+    position: absolute;
+    width: 32%;
+    height: 190px;
+    left: 580px;
+    top: -65px;
+
+    border-radius: 17.4583px;
+  }
+  .livebtn {
+    position: absolute;
+    width: 65.47px;
+    height: 30.55px;
+    left: 27.93px;
+    top: 24.44px;
+  }
+  .rectangle45 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: rgba(46, 46, 46, 0.8);
+    border-radius: 8.72917px;
+  }
+  .livetext {
+    position: absolute;
+    left: 16.93px;
+    top: 7px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.2208px;
+    line-height: 14px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 1183px) {
+  .cam3 {
+    display: none;
+  }
+  .frame1362 {
+    left: 670px;
+  }
+}
+@media screen and (max-width: 1097px) {
+  .screens-container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 929px) {
+  .screens-container {
+    width: 70%;
+  }
+  .frame1362 {
+    left: 550px;
+  }
+}
+@media screen and (max-width: 861px) {
+  .btni {
+    left: 86%;
+  }
+}
+@media screen and (max-width: 775px) {
+  .cam2 {
+    position: absolute;
+    width: 32%;
+    height: 190px;
+    left: 180px;
+    top: -65px;
+
+    border-radius: 17.4583px;
+  }
+  .frame1362 {
+    left: 450px;
+  }
+}
+@media screen and (max-width: 775px) {
+  .frame1362 {
+    left: 430px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .screens-container {
+    position: absolute;
+    top: 160px;
+    right: 11.5%;
+    width: 58%;
+    height: 1029px;
+  }
+  .videopanda {
+    position: absolute;
+    width: 144%;
+    height: 315px;
+    left: -75px;
+    top: -90px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 19.5469px;
+  }
+  .tgp {
+    position: absolute;
+    width: 221px;
+    height: 28px;
+    left: -75px;
+    top: -150px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #0d444d;
+  }
+  .mcam {
+    position: absolute;
+    width: 118px;
+    height: 21px;
+    left: -72px;
+    top: -120px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #0d444d;
+  }
+  .ibtn {
+    position: absolute;
+    width: 6px;
+    height: 28px;
+    left: 53px;
+    top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: lowercase;
+    color: #19707d;
+  }
+  .rectangle20 {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 37px;
+    top: 0px;
+    border: 1.5px solid #19707d;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }
+  .btnh {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 110.5%;
+    top: -62px;
+  }
+  .rectangle40 {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 5px;
+    top: 2px;
+    border: 1.5px solid #19707d;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }
+  .hframe img {
+    height: 15px;
+    width: 17px;
+  }
+  .hframe {
+    position: absolute;
+    left: 34.43%;
+    right: 21.43%;
+    top: 28.19%;
+    bottom: 16.67%;
+  }
+  .title {
+    position: absolute;
+    width: 51px;
+    height: 18px;
+    left: -5px;
+    top: 50px;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2d2d2d;
+    visibility: hidden;
+  }
+  .btni {
+    position: absolute;
+    width: 3.1%;
+    height: 42px;
+    left: 88%;
+    top: -60px;
+  }
+  .btnrigth {
+    position: absolute;
+    width: 50%;
+    height: 52px;
+    left: -42px;
+    top: 0px;
+  }
+  .btnleft {
+    position: absolute;
+    width: 50%;
+    height: 52px;
+    left: 29px;
+    top: 52px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  .frame1362 {
+    left: 430px;
+    top: 370px;
+  }
+  .scamtext {
+    position: absolute;
+    width: 115px;
+    height: 21px;
+    left: -75px;
+    top: 327px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #0d444d;
+  }
+  .framecam {
+    position: absolute;
+    width: 90.86%;
+    height: 240px;
+    left: 70px;
+    top: 406px;
+  }
+  .cam1 {
+    position: absolute;
+    width: 70%;
+    height: 155px;
+    left: -144px;
+    top: -55px;
+    border-radius: 17.4583px;
+  }
+  .cam2 {
+    position: absolute;
+    width: 70%;
+    height: 155px;
+    left: 100px;
+    top: -55px;
+    border-radius: 17.4583px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .frame1362 {
+    left: 410px;
+    top: 370px;
+  }
+  .btnleft {
+    position: absolute;
+    width: 50%;
+    height: 52px;
+    left: -20px;
+    top: 52px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  .btn111 {
+    position: absolute;
+    width: 15px;
+    height: 21px;
+    left: -17px;
+    top: 15.5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+}
+@media screen and (max-width: 556px) {
+  .frame1362 {
+    left: 390px;
+    top: 370px;
+  }
+  .btni {
+    position: absolute;
+    width: 3.1%;
+    height: 42px;
+    left: 82%;
+    top: -60px;
+  }
+  .btnh {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 109.5%;
+    top: -62px;
+  }
+}
+@media screen and (max-width: 502px) {
+  .cam2 {
+    left: 50px;
+  }
+  .frame1362 {
+    left: 322px;
+    top: 370px;
+  }
+  .btni {
+    left: 60%;
+  }
+  .btnh {
+    left: 90.5%;
+  }
+}
+@media screen and (max-width: 468px) {
+  .cam2 {
+    position: absolute;
+    width: 70%;
+    height: 155px;
+    left: 40px;
+    top: -55px;
+    border-radius: 17.4583px;
+  }
+  .frame1362 {
+    left: 305px;
+    top: 370px;
+  }
+  .btni {
+    position: absolute;
+    width: 3.1%;
+    height: 42px;
+    left: 60%;
+    top: -60px;
+  }
+  .btnh {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 90.5%;
+    top: -62px;
+  }
+  .screens-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 604px;
+    left: -30px;
+    top: 85px;
+    margin: 1 auto;
+  }
+}
+@media screen and (max-width: 446px) {
+  .framecam {
+    left: 15px;
+  }
+  .frame1362 {
+    left: 235px;
+  }
+  .btni {
+    left: 42%;
+  }
+  .btnh {
+    left: 75.5%;
+  }
+}
+@media screen and (max-width: 404px) {
+  .framecam {
+    position: absolute;
+    width: 90.86%;
+    height: 240px;
+    left: 20px;
+    top: 406px;
+  }
+  .frame1362 {
+    left: 225px;
+    top: 370px;
+  }
+  .btni {
+    left: 40%;
+  }
+}
+@media screen and (max-width: 385px) {
+  .frame1362 {
+    left: 206px;
+    top: 370px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .screens-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 604px;
+    left: -30px;
+    top: 145px;
+    margin: 1 auto;
+  }
+  .videopanda {
+    position: absolute;
+    width: 194%;
+    height: 215px;
+    left: -115px;
+    top: -90px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 19.5469px;
+  }
+  .tgp {
+    left: -110px;
+    top: -160px;
+  }
+  .mcam {
+    left: -110px;
+    top: -130px;
+  }
+  .scamtext {
+    left: -135px;
+    top: 285px;
+  }
+  .framecam {
+    top: 366px;
+  }
+  .cam1 {
+    position: absolute;
+    width: 95%;
+    height: 105px;
+    left: -160px;
+    top: -55px;
+    border-radius: 17.4583px;
+  }
+  .cam2 {
+    position: absolute;
+    width: 90%;
+    height: 105px;
+    left: 10px;
+    top: -55px;
+    border-radius: 17.4583px;
+  }
+  .frame1362 {
+    left: 205px;
+    top: 330px;
+  }
+  .btnleft {
+    display: none;
+  }
+  .btni {
+    left: 56%;
+    top: -6px;
+  }
+  .rectangle20 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+  }
+  .ibtn {
+    position: absolute;
+    width: 6px;
+    height: 28px;
+    left: 48px;
+    top: 1px;
+  }
+  .btnh {
+    left: 92.5%;
+    top: -8px;
+  }
+  .rectangle40 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+  }
+  .hframe {
+    position: absolute;
+    left: 24.43%;
+    right: 21.43%;
+    top: 22.19%;
+    bottom: 16.67%;
+  }
+}
